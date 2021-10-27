@@ -1,0 +1,80 @@
+﻿<div id=CalcListDlg>
+    <div id="ScoreDefine" style="color: #333333; font-size: 13px; text-align: right;margin: 0 15px 30px;">
+        <p><span style="color:#2874B8;">평가점수</span> <span style="color: #c9c9c9;">>></span> 매우 맞다  5    맞다  4    보통  3    아니다  2    매우 아니다  1</p>
+    </div>
+
+    <div id="section" style="margin:-20px 10px 10px 15px;">
+        <table border="0" width="990px" height="250" style="border-collapse: collapse;">
+            <th width=200px height=34px align="center" style="margin: 6px 18px 7px 0;color: #fff; background-color:#F5A4BE;">설문항목</th>
+            <th width=404px height=34px align="center" style="padding: 11px 0px 11px 14px; color: #fff; background-color: #F5A4BE;">내용</th>
+            <th width=250px height=34px align="center" style="margin: 6px 0 7px 79px; color: #fff; background-color: #F5A4BE;">평가점수</th>
+            
+            <tr style="height:64px; font-size: 15px;">
+                <td style="text-align: center;border: solid 1px #e5e5e5;"> ~~~</td>
+                <td style="line-height: 1.8;padding: 11px 64px 11px 14px;font-size:15px ;border: solid 1px #ddd">~~~~~~</br><span style="font-size:14px;color:#555555">예)</span></td>
+                <td style="border: solid 1px #e5e5e5" onclick="radio_click('1', document.getElementsByName('radio_info1'));">
+                    0<input type="radio" name="radio_info1" value="0" checked="checked">
+                    &nbsp1<input type="radio" name="radio_info1" value="2">
+                    &nbsp2<input type="radio" name="radio_info1" value="4">
+                    &nbsp3<input type="radio" name="radio_info1" value="6">
+                    &nbsp4<input type="radio" name="radio_info1" value="8">
+                    &nbsp5<input type="radio" name="radio_info1" value="10">
+                </td>
+            </tr>
+            <tr style="height:64px; font-size: 15px;">
+                <td style="text-align: center;border: solid 1px #e5e5e5">~~~</td>
+                <td style="line-height: 1.8;padding: 11px 14px;font-size:15px;border: solid 1px #ddd">~~~</br><span style="font-size:14px;color:#555555">예)</span></td>
+                <td style="border: solid 1px #e5e5e5" onclick="radio_click('2', document.getElementsByName('radio_info2'));">
+                    0<input type="radio" name="radio_info2" value="0" checked="checked">
+                    &nbsp1<input type="radio" name="radio_info2" value="3">
+                    &nbsp2<input type="radio" name="radio_info2" value="6">
+                    &nbsp3<input type="radio" name="radio_info2" value="9">
+                    &nbsp4<input type="radio" name="radio_info2" value="12">
+                    &nbsp5<input type="radio" name="radio_info2" value="15">
+                </td>
+            </tr>
+            <tr style="height:64px; font-size: 15px;">
+                <td style="border: solid 1px #e5e5e5;text-align: center;">~~~</td>
+                <td style="line-height: 1.8;border: solid 1px #e5e5e5;padding: 11px ;font-size:15px ;">~~~</br><span style="font-size:14px;color:#555555">예)</span></td>
+                <td style="border: solid 1px #e5e5e5;" onclick="radio_click('3', document.getElementsByName('radio_info3'));">
+                    0<input type="radio" name="radio_info3" value="0" checked="checked">
+                    &nbsp1<input type="radio" name="radio_info3" value="2">
+                    &nbsp2<input type="radio" name="radio_info3" value="4">
+                    &nbsp3<input type="radio" name="radio_info3" value="6">
+                    &nbsp4<input type="radio" name="radio_info3" value="8">
+                    &nbsp5<input type="radio" name="radio_info3" value="10">
+                </td>
+            </tr>
+            <tr style="height:64px; font-size: 15px;">
+                <td style="border: solid 1px #e5e5e5;text-align: center;">~~~</td>
+                <td style="line-height: 1.8;border: solid 1px #e5e5e5;padding: 11px;font-size:15px ;">~~~</br><span style="font-size:14px;color:#555555">예)</span></td>
+                <td style="border: solid 1px #e5e5e5;" onclick="radio_click('4', document.getElementsByName('radio_info4'));">
+                    0<input type="radio" name="radio_info4" value="0" checked="checked">
+                    &nbsp1<input type="radio" name="radio_info4" value="7">
+                    &nbsp2<input type="radio" name="radio_info4" value="14">
+                    &nbsp3<input type="radio" name="radio_info4" value="21">
+                    &nbsp4<input type="radio" name="radio_info4" value="28">
+                    &nbsp5<input type="radio" name="radio_info4" value="35">
+                </td>
+            </tr>
+            <tr style="height:64px; font-size: 15px;">
+                <td style="border: solid 1px #e5e5e5;text-align: center;">~~~</td>
+                <td style="line-height: 1.8;border: solid 1px #e5e5e5;padding: 11px;">~~~</br><span style="font-size:14px;color:#555555">예)</span></td>
+                <td style="border: solid 1px #e5e5e5;" onclick="radio_click('5', document.getElementsByName('radio_info5'));">
+                    0<input type="radio" name="radio_info5" value="0" checked="checked">
+                    &nbsp1<input type="radio" name="radio_info5" value="6">
+                    &nbsp2<input type="radio" name="radio_info5" value="12">
+                    &nbsp3<input type="radio" name="radio_info5" value="18">
+                    &nbsp4<input type="radio" name="radio_info5" value="24">
+                    &nbsp5<input type="radio" name="radio_info5" value="30">
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="grade-explain" style="margin: 20px 10px 0 10px;">
+        <table style="width: 990px; height: 30px;">
+            <th width=120px height=30px style="font-size: 13px;padding-left: 40px; text-align:center;border: solid 1px #B27BB8;color: #00879e; background-color: #EBB1DB;">~~~</th>
+            <th width=617px height=30px style="font-size: 13px; text-align:left;border: solid 1px #ddd;font-weight:400; background-color: #fff;">~~~~~~</th>
+        </table>
+    </div>
+</div>
